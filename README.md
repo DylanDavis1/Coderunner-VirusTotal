@@ -16,7 +16,7 @@ Before using this program, ensure you have set up the `VIRUSTOTAL_API_KEY` envir
 3. The program will display the analysis results, indicating whether the link is suspicious or safe.
 
 ## Screenshots
-<img src="SiteScanner.png" width="350" height="300" />
+<img src="SiteScanner.png" width="450" height="375" />
 
 ## Contributing
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
