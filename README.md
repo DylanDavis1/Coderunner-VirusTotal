@@ -18,9 +18,6 @@ Before using this program, ensure you have set up the `VIRUSTOTAL_API_KEY` envir
 ## Screenshots
 <img src="SiteScanner.png" width="450" height="375" />
 
-## Contributing
-Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
 ## Acknowledgements
 - The Site Checker program was created for RowdyHacks 2024 by Team Coderunner.
 - Special thanks to the VirusTotal API for providing the necessary functionality to analyze links for potential threats.
