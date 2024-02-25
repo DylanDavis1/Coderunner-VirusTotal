@@ -17,7 +17,7 @@ Before using this program, ensure you have set up the `VIRUSTOTAL_API_KEY` envir
 
 ## Screenshots
 <img src="SiteScanner.png" width="450" height="375" />
-
+This deceptive domain, closely resembling the legitimate 'microsoft.com', exploits common typographical errors to mislead users.
 ## Acknowledgements
 - The Site Checker program was created for RowdyHacks 2024 by Team Coderunner.
 - Special thanks to the VirusTotal API for providing the necessary functionality to analyze links for potential threats.
