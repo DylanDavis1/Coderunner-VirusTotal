@@ -1,6 +1,6 @@
 # Site Scanner
 
-![Site Checker Logo](logo.jpg)
+<img src="logo.jpg" width="300" height="300" />
 
 ## Introduction
 The Site Scanner program is designed to check if a link is suspicious or not by utilizing the VirusTotal API. This tool can help users identify potentially harmful links and take appropriate precautions.
