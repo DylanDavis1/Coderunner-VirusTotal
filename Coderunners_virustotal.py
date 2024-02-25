@@ -3,6 +3,24 @@ import requests
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
 
+
+print("This program is designed to check if a link is suspicious or not.")
+print("Please note that while this tool can be used for legitimate purposes, it can also be misused for malicious intents.")
+print("I do not endorse or support the use of this tool for unethical or illegal activities.")
+
+print("This pulls from VirusTotal's API, so you will need to set the VIRUSTOTAL_API_KEY environment variable.")
+print("This Project was made for RowdyHacks 2024 by Team Coderunner")
+
+# Print program logo
+print("\033[95m" + """
+░█████╗░░█████╗░██████╗░███████╗██████╗░██╗░░░██╗███╗░░██╗███╗░░██╗███████╗██████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗██║░░░██║████╗░██║████╗░██║██╔════╝██╔══██╗
+██║░░╚═╝██║░░██║██║░░██║█████╗░░██████╔╝██║░░░██║██╔██╗██║██╔██╗██║█████╗░░██████╔╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░██╔══██╗██║░░░██║██║╚████║██║╚████║██╔══╝░░██╔══██╗
+╚█████╔╝╚█████╔╝██████╔╝███████╗██║░░██║╚██████╔╝██║░╚███║██║░╚███║███████╗██║░░██║
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝
+""" + "\033[0m")
+
 def check_link():
     api_key = os.getenv('VIRUSTOTAL_API_KEY')
     if not api_key:
